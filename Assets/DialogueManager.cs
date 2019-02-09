@@ -7,9 +7,15 @@ public class DialogueManager : MonoBehaviour
 {
     public Dialogue currentDialogue;
 
+    public GameObject dialogueBox;
+    public GameObject branchingBox;
+
     public Image actorAvatar;
     public Text actorName;
     public Text actorSpeech;
+
+    public Text decisionBlurb1;
+    public Text decisionBlurb2;
 
     Queue<string> sentences;
 
@@ -45,6 +51,8 @@ public class DialogueManager : MonoBehaviour
 
     void DisplayNextSentence()
     {
+        StopAllCoroutines();
+
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -65,12 +73,22 @@ public class DialogueManager : MonoBehaviour
         }
 
         // TO-DO implement branching
-        //if (currentDialogue.branchNext)
-        //{
-
-        //}
+        if (currentDialogue.branchNext)
+        {
+            decisionBlurb1.text = currentDialogue.branch.decisionBlurb1;
+            decisionBlurb2.text = currentDialogue.branch.decisionBlurb2;
+            branchingBox.SetActive(true);
+        }
 
         Debug.Log("End of dialogue!");
+    }
+
+    public void DecisionMade(Button button)
+    {
+        currentDialogue = button.name == "Decision 1" ? currentDialogue.branch.branch1 : currentDialogue.branch.branch2;
+        branchingBox.SetActive(false);
+        StartDialogue();
+        //Debug.Log(button.name);
     }
 
     IEnumerator DisplaySentence(string sentence)

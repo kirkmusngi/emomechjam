@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: SpikeE1D2
+  m_Name: SpikeE1D3
   m_EditorClassIdentifier: 
   currentActor: Spike
   lines:
-  - She loves me like a big brother.
-  - Not from where we're sitting.
-  - It's a schoolgirl crush.
+  - You've made the right decision.
   nextDialogue: {fileID: 0}
-  branchNext: 1
+  branchNext: 0
   branch:
-    decisionBlurb1: The "right" decision
-    decisionBlurb2: The "wrong" decision
-    branch1: {fileID: 11400000, guid: d1ea4320a14aa4733bad6724ae51da7b, type: 2}
-    branch2: {fileID: 11400000, guid: 571b73528beff4df6909236a29a3c161, type: 2}
+    decisionBlurb1: 
+    decisionBlurb2: 
+    branch1: {fileID: 0}
+    branch2: {fileID: 0}
