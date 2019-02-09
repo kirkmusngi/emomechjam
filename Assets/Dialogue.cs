@@ -9,4 +9,8 @@ public class Dialogue : ScriptableObject
 
     [TextArea(3, 10)]
     public string[] lines;
+
+    public Dialogue nextDialogue;
+    public bool branchNext;
+    public DialogueBranch branch;
 }

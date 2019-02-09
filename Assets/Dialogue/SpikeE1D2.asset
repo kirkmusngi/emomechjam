@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: SpikeE1D1
+  m_Name: SpikeE1D2
   m_EditorClassIdentifier: 
   currentActor: Spike
   lines:
-  - See you, Space Cowboy!
-  - I hate kids and dogs.
-  - She smelled like roses. Fresh out of the shower.
-  nextDialogue: {fileID: 11400000, guid: 98440d0f76f6c45b892a44ac85469ce8, type: 2}
+  - She loves me like a big brother.
+  - Not from where we're sitting.
+  - It's a schoolgirl crush.
+  nextDialogue: {fileID: 0}
   branchNext: 0
   branch: {fileID: 0}

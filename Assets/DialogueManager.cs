@@ -57,6 +57,19 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        if (currentDialogue.nextDialogue != null)
+        {
+            currentDialogue = currentDialogue.nextDialogue;
+            StartDialogue();
+            return;
+        }
+
+        // TO-DO implement branching
+        //if (currentDialogue.branchNext)
+        //{
+
+        //}
+
         Debug.Log("End of dialogue!");
     }
 
