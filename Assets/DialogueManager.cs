@@ -19,14 +19,12 @@ public class DialogueManager : MonoBehaviour
 
     Queue<string> sentences;
 
-    // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
         StartDialogue();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -72,7 +70,6 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // TO-DO implement branching
         if (currentDialogue.branchNext)
         {
             decisionBlurb1.text = currentDialogue.branch.decisionBlurb1;
@@ -88,7 +85,6 @@ public class DialogueManager : MonoBehaviour
         currentDialogue = button.name == "Decision 1" ? currentDialogue.branch.branch1 : currentDialogue.branch.branch2;
         branchingBox.SetActive(false);
         StartDialogue();
-        //Debug.Log(button.name);
     }
 
     IEnumerator DisplaySentence(string sentence)
