@@ -144,11 +144,16 @@ public class DialogueManager : MonoBehaviour
     {
         actorName.text = currentDialogue.currentActor;
         currentText.text = "";
-
+        int soundDelay = 0;
         foreach(char letter in sentence.ToCharArray())
         {
             currentText.text += letter;
-            sfxSource.PlayOneShot(sfxSource.clip);
+            soundDelay++;
+            if (soundDelay % 3 == 0) {
+                sfxSource.PlayOneShot(sfxSource.clip);
+                soundDelay = 0;
+            }
+
             yield return null;
         }
     }
