@@ -19,6 +19,8 @@ public class DialogueManager : MonoBehaviour
     public Text decisionBlurb1;
     public Text decisionBlurb2;
 
+    public AudioSource sfxSource;
+
     Queue<string> sentences;
     GameObject currentDialogueBox;
     Text currentText;
@@ -146,6 +148,7 @@ public class DialogueManager : MonoBehaviour
         foreach(char letter in sentence.ToCharArray())
         {
             currentText.text += letter;
+            sfxSource.PlayOneShot(sfxSource.clip);
             yield return null;
         }
     }
