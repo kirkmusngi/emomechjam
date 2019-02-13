@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 /* TO-DO 
  * - how to flesh out the dialogue bits
@@ -13,7 +14,8 @@ using UnityEngine;
 public class Actor : MonoBehaviour
 {
     public new string name;
-    public List<string> dialogue;
+    public static CurrentActor current;
+    public Sprite avatar;
 
     // Start is called before the first frame update
     void Start()
@@ -26,4 +28,6 @@ public class Actor : MonoBehaviour
     {
         
     }
+
+
 }

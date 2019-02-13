@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 2OMDialogue
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 2
   lines:
   - '"Ah, yes, yes. That''s true. Let me show you the old girl."'
+  importantSegue: 0
+  segueToCutTo: 0
   nextDialogue: {fileID: 11400000, guid: ff408627dab295a44ad452f4581a1a9f, type: 2}
   branchNext: 0
   branch:

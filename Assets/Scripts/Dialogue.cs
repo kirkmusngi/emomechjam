@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Dialogue : ScriptableObject
 {
     public CurrentDialogueBox focus;
-    public string currentActor;
+    public CurrentActor currentActor;
 
     [TextArea(3, 10)]
     public string[] lines;
@@ -37,4 +37,9 @@ public enum CurrentScene
 public enum Segue
 {
     PresentMechPrologue, ToMainScene
+}
+
+public enum CurrentActor
+{
+    OldManAngry, OldManShocked, OldManNeutral, IsabelleNeutral, IsabelleLaughing, IsabelleGlaring, IsabelleDiscovering
 }

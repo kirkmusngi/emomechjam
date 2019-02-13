@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 7IFMDialogue 2
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 3
   lines:
   - '"He he, oh yes, I suppose that is quite true."'
   - '"I remember the little mice running for the woods quite clearly." '
@@ -21,6 +21,8 @@ MonoBehaviour:
     remember the poor footmen running into buildings thinking it would save them,
     only to not realize I could just as easily collapse it on them with a well placed
     bomb.\""
+  importantSegue: 0
+  segueToCutTo: 0
   nextDialogue: {fileID: 11400000, guid: e6b755e324ef1654091735bb760a8bb8, type: 2}
   branchNext: 0
   branch:

@@ -18,6 +18,14 @@ public class DialogueManager : MonoBehaviour
     public Text actorName;
     public Text actorSpeech;
 
+    public Sprite oldmanNeutral;
+    public Sprite oldmanAngry;
+    public Sprite oldmanShocked;
+    public Sprite isabelleDiscovering;
+    public Sprite isabelleGlaring;
+    public Sprite isabelleLaughing;
+    public Sprite isabelleNeutral;
+
     public Text decisionBlurb1;
     public Text decisionBlurb2;
 
@@ -64,7 +72,7 @@ public class DialogueManager : MonoBehaviour
     {
         // Set dialogue box focus and actor...
         SetCurrentFocus();
-        //Debug.Log("Starting conversation with " + currentDialogue.currentActor);
+        SetAvatarAndName();
 
         sentences.Clear();
 
@@ -149,6 +157,49 @@ public class DialogueManager : MonoBehaviour
         currentDialogueBox.SetActive(true);
     }
 
+    void SetAvatarAndName()
+    {
+        if (currentDialogue.currentActor == CurrentActor.IsabelleDiscovering || currentDialogue.currentActor == CurrentActor.IsabelleGlaring
+            || currentDialogue.currentActor == CurrentActor.IsabelleLaughing || currentDialogue.currentActor == CurrentActor.IsabelleNeutral)
+        {
+            actorName.text = "Isabelle";
+        }
+
+        if (currentDialogue.currentActor == CurrentActor.OldManAngry || currentDialogue.currentActor == CurrentActor.OldManNeutral
+            || currentDialogue.currentActor == CurrentActor.OldManShocked)
+        {
+            actorName.text = "Old Man";
+        }
+
+        switch (currentDialogue.currentActor)
+        {
+            case CurrentActor.IsabelleDiscovering:
+                actorAvatar.sprite = isabelleDiscovering;
+                break;
+            case CurrentActor.IsabelleGlaring:
+                actorAvatar.sprite = isabelleGlaring;
+                break;
+            case CurrentActor.IsabelleNeutral:
+                actorAvatar.sprite = isabelleNeutral;
+                break;
+            case CurrentActor.IsabelleLaughing:
+                actorAvatar.sprite = isabelleLaughing;
+                break;
+            case CurrentActor.OldManAngry:
+                actorAvatar.sprite = oldmanAngry;
+                break;
+            case CurrentActor.OldManNeutral:
+                actorAvatar.sprite = oldmanNeutral;
+                break;
+            case CurrentActor.OldManShocked:
+                actorAvatar.sprite = oldmanShocked;
+                break;
+            default:
+                Debug.Log("INVALID DIALOGUE BOX");
+                break;
+        }
+    }
+
     void PlaySegue(Segue segueToCutTo)
     {
         if (segueToCutTo == Segue.PresentMechPrologue)
@@ -176,7 +227,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator DisplaySentence(string sentence)
     {
-        actorName.text = currentDialogue.currentActor;
+        //actorName.text = currentDialogue.currentActor;
         currentText.text = "";
         int soundDelay = 0;
         foreach(char letter in sentence.ToCharArray())

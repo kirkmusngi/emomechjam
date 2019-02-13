@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 9IFDialogue
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 3
   lines:
   - '"Captain Isabelle Faust of the Zargovia Air Force. Led a flight squadron myself
     back in the war." '
