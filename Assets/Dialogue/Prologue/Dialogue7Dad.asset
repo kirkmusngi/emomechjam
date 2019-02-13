@@ -17,8 +17,8 @@ MonoBehaviour:
   lines:
   - '.....'
   - Don't worry about that.
-  importantSegue: 0
-  segueToCutTo: 0
+  importantSegue: 1
+  segueToCutTo: 1
   nextDialogue: {fileID: 0}
   branchNext: 0
   branch:

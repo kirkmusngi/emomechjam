@@ -36,5 +36,5 @@ public enum CurrentScene
 
 public enum Segue
 {
-    PresentMechPrologue
+    PresentMechPrologue, ToMainScene
 }

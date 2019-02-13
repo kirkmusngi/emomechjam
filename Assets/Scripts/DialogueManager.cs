@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class DialogueManager : MonoBehaviour
 {
     public Dialogue currentDialogue;
+    public LevelChanger levelChanger;
 
     public GameObject pilotBox;
     public GameObject prologueBox;
@@ -154,9 +155,15 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.Log("Mech Segue!");
             mechPrologueImage.SetActive(true);
-            currentDialogueBox.GetComponent<RectTransform>().Translate(130, 0, 0);
+            pilotBox.GetComponent<RectTransform>().Translate(200, 0, 0);
+            prologueBox.GetComponent<RectTransform>().Translate(200, 0, 0);
             currentDialogue = currentDialogue.nextDialogue;
             StartDialogue();
+        }
+
+        if (segueToCutTo == Segue.ToMainScene)
+        {
+            levelChanger.FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 

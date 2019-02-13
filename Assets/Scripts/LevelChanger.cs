@@ -10,7 +10,7 @@ public class LevelChanger : MonoBehaviour
     int levelToLoad;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && SceneManager.GetActiveScene().buildIndex == 0)
         {
             FadeToLevel(1);
         }
