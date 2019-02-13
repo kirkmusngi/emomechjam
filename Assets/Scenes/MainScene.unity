@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e8f361172583460caf5a2aa7f65e8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentDialogue: {fileID: 11400000, guid: 22061a09b2f3c854eb66106b1317aeca, type: 2}
+  currentDialogue: {fileID: 11400000, guid: 19c9a28152dea47a7b2884abb72c07de, type: 2}
   levelChanger: {fileID: 0}
   pilotBox: {fileID: 720514091}
   prologueBox: {fileID: 1205341719}
@@ -1729,6 +1729,14 @@ MonoBehaviour:
   actorAvatar: {fileID: 650297870}
   actorName: {fileID: 1628321666}
   actorSpeech: {fileID: 1193160821}
+  oldmanNeutral: {fileID: 21300000, guid: 5303821bdddbb47ddb0252d107958cb4, type: 3}
+  oldmanAngry: {fileID: 21300000, guid: f499004ae058b4135b2634a66fdae090, type: 3}
+  oldmanShocked: {fileID: 21300000, guid: 6087698b9fc4a415b8a382fddb197b87, type: 3}
+  isabelleDiscovering: {fileID: 21300000, guid: 05b15f2209de54d668ec8cb858ea0b55,
+    type: 3}
+  isabelleGlaring: {fileID: 21300000, guid: 1b068c6e443804f8eaeb2ccc68dda920, type: 3}
+  isabelleLaughing: {fileID: 21300000, guid: 2cd61b79272de45aeb5bdb36062ac4d6, type: 3}
+  isabelleNeutral: {fileID: 21300000, guid: 93631fa4871574b1aab1540fdb112cf8, type: 3}
   decisionBlurb1: {fileID: 812156099}
   decisionBlurb2: {fileID: 388898820}
   sfxSource: {fileID: 654500862}
