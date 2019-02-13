@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 15TIFDialogue 4
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 3
   lines:
   - "\"Yes! And we're all the better for it. All it cost you were a few friends.\r\n\r\nYou
     should be thankful you got what you paid for.\""
@@ -31,7 +31,7 @@ MonoBehaviour:
     for for it?\""
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: 22061a09b2f3c854eb66106b1317aeca, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 52c271dde1012674db3e43d16a692822, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 14TOMDialogue 3
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 2
   lines:
   - '"HA! I''m sure you wish we would have, witch. But Hebes survives."'
   importantSegue: 0

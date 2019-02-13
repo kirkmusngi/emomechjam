@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 13JIFDialogue 3
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 3
   lines:
   - '"Is it really better to live your life quivering in a hole somewhere, terrified
     to go outside?"'

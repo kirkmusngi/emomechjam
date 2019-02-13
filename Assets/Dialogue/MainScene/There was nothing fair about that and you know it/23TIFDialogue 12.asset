@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 23TIFDialogue 12
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 5
   lines:
   - '"Well then..."'
   - '"Enjoy your... "dignity"." '

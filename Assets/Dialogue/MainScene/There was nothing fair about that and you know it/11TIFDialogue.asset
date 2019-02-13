@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 11TIFDialogue
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 3
   lines:
   - '"It was a war, darling"'
   - '"It''s not like you lot weren''t shooting back."'

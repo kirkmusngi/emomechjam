@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 18TOFDialogue 7
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 0
   lines:
   - '"You''re a goddamned monster."'
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: 22061a09b2f3c854eb66106b1317aeca, type: 2}
+  nextDialogue: {fileID: 11400000, guid: fe0144d05d7c8b1449032d9614a86db3, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

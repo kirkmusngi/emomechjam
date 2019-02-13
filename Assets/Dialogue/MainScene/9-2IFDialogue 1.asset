@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: 9IFDialogue
+  m_Name: 9-2IFDialogue 1
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 5
+  currentActor: 4
   lines:
-  - '"Captain Isabelle Faust of the Zargovia Air Force. Led a flight squadron myself
-    back in the war." '
+  - '"Oh how exhilarating it was to come across a little nest of walkers and infantry
+    going to and fro in a field as clear as the sky is today."'
+  - "\"I always thought that made things just a little more fair, don't you?\r\n\r\nAfter
+    all, I was always stuck up there wide out in the open, plain as day, with no where
+    to hide. It's not like there were flying barns to duck into or anything.\""
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: b54090adfbabcd14199a49f113235603, type: 2}
-  branchNext: 0
+  nextDialogue: {fileID: 0}
+  branchNext: 1
   branch:
     decisionBlurb1: There was nothing fair about that and you know it.
     decisionBlurb2: Just as fair as the price I'll give you for it.

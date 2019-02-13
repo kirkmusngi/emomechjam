@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 22TDDialogue 11
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 6
   lines:
   - Isabelle takes a minute to look around at the old man's barren, scrapyard home.
   importantSegue: 0

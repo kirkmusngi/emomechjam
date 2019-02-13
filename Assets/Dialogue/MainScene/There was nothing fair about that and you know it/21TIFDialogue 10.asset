@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 21TIFDialogue 10
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 0
   lines:
   - "\"And you let it drag you down into the lowest scum. \r\n\r\nYou're just a hollow
     corpse with a burned out soul I will not abide.\""
   - '"At least the dead have dignity."'
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: 22061a09b2f3c854eb66106b1317aeca, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 78b258ce823500e4faba663f1e57beec, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 
