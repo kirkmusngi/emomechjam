@@ -10,17 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: 10JOMDialogue
+  m_Name: 11JIFDialogue 1
   m_EditorClassIdentifier: 
   focus: 2
   currentActor: 
   lines:
-  - '"I guess there''s no where to run if things take a turn for the worse up there."'
-  - '"I always had much more luck putting something between me and a bullet than trying
-    to dodge one."'
+  - '"Oh yes! There''s a true nobility to aerial combat! Meeting your opponent out
+    on an open field, no tricks, no deceptions, just pure martial prowess."'
+  - '"A fighter pilot has the decency to announce themselves when they arrive and
+    give you a chance to fight back."'
+  - '"Not like some Yahoo just hanging out in a pile of tree branches with a stinger
+    missile"'
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: 4752e1bea07c5b949bf80765f69ef307, type: 2}
+  nextDialogue: {fileID: 11400000, guid: ca5f4a5e53d08134bbe1956cdca12a97, type: 2}
   branchNext: 1
   branch:
     decisionBlurb1: There was nothing fair about that and you know it.
