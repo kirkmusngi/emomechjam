@@ -57,7 +57,11 @@ public class DialogueManager : MonoBehaviour
         pilotText = pilotBox.GetComponentInChildren<Text>();
         prologueText = prologueBox.GetComponentInChildren<Text>();
         dialogueText = dialogueBox.GetComponentInChildren<Text>();
-        approachText = approachBox.GetComponentInChildren<Text>();
+
+        if (SceneManager.GetActiveScene().name == "MainScene")
+        {
+            approachText = approachBox.GetComponentInChildren<Text>();
+        }
 
         Debug.Log(pilotText.text);
         Debug.Log(prologueText.text);
