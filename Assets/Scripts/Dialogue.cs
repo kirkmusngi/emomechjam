@@ -26,7 +26,7 @@ public class Dialogue : ScriptableObject
 
 public enum CurrentDialogueBox
 {
-    PilotBox, ChildBox, MainBox
+    PilotBox, ChildBox, MainBox, ApproachBox
 }
 
 public enum CurrentScene
@@ -36,7 +36,7 @@ public enum CurrentScene
 
 public enum Segue
 {
-    PresentMechPrologue, ToMainScene
+    PresentMechPrologue, ToMainScene, Approach2, Approach3, Approach4, MechCentered
 }
 
 public enum CurrentActor

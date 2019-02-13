@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: 2OMDialogue
+  m_Name: Approach1Dialogue
   m_EditorClassIdentifier: 
-  focus: 2
-  currentActor: 2
+  focus: 3
+  currentActor: 0
   lines:
-  - '"Ah, yes, yes. That''s true. Let me show you the old girl."'
+  - A black cloud plumed against the endless blue.
   importantSegue: 1
-  segueToCutTo: 5
-  nextDialogue: {fileID: 11400000, guid: ff408627dab295a44ad452f4581a1a9f, type: 2}
+  segueToCutTo: 2
+  nextDialogue: {fileID: 11400000, guid: 0f9db0fcc49674743bbfe4e2746fe1fc, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

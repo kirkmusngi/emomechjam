@@ -15,9 +15,6 @@ MonoBehaviour:
   focus: 2
   currentActor: 3
   lines:
-  - As the door opened, a heavy fog of cigarette smoke escaped and mixed with the
-    smell of bleeding gasoline and fury. She emerged like an uncaged storm cloud,
-    grinning.
   - '"Hello, good sir! My name is Isabelle Faust. I''m in the market for old war-era
     hard forms and I heard you were looking to part with one?"'
   importantSegue: 0

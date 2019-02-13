@@ -13,10 +13,19 @@ public class DialogueManager : MonoBehaviour
     public GameObject prologueBox;
     public GameObject dialogueBox;
     public GameObject branchingBox;
+    public GameObject approachBox;
 
     public Image actorAvatar;
     public Text actorName;
     public Text actorSpeech;
+
+    public Image backgroundImage;
+
+    public Sprite approach1Sprite;
+    public Sprite approach2Sprite;
+    public Sprite approach3Sprite;
+    public Sprite isabelleArrivedSprite;
+    public Sprite mechCenteredSprite;
 
     public Sprite oldmanNeutral;
     public Sprite oldmanAngry;
@@ -40,6 +49,7 @@ public class DialogueManager : MonoBehaviour
     Text pilotText;
     Text prologueText;
     Text dialogueText;
+    Text approachText;
 
 
     void Awake()
@@ -47,6 +57,7 @@ public class DialogueManager : MonoBehaviour
         pilotText = pilotBox.GetComponentInChildren<Text>();
         prologueText = prologueBox.GetComponentInChildren<Text>();
         dialogueText = dialogueBox.GetComponentInChildren<Text>();
+        approachText = approachBox.GetComponentInChildren<Text>();
 
         Debug.Log(pilotText.text);
         Debug.Log(prologueText.text);
@@ -55,6 +66,11 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(SceneManager.GetActiveScene().name);
+        if (SceneManager.GetActiveScene().name == "MainScene")
+        {
+            backgroundImage.sprite = approach1Sprite;
+        }
         sentences = new Queue<string>();
         currentDialogueBox = null;
         StartDialogue();
@@ -149,6 +165,10 @@ public class DialogueManager : MonoBehaviour
                 currentDialogueBox = prologueBox;
                 currentText = prologueText;
                 break;
+            case CurrentDialogueBox.ApproachBox:
+                currentDialogueBox = approachBox;
+                currentText = approachText;
+                break;
             default:
                 Debug.Log("INVALID DIALOGUE BOX");
                 break;
@@ -208,6 +228,34 @@ public class DialogueManager : MonoBehaviour
             mechPrologueImage.SetActive(true);
             pilotBox.GetComponent<RectTransform>().Translate(200, 0, 0);
             prologueBox.GetComponent<RectTransform>().Translate(200, 0, 0);
+            currentDialogue = currentDialogue.nextDialogue;
+            StartDialogue();
+        }
+
+        if (segueToCutTo == Segue.Approach2)
+        {
+            backgroundImage.sprite = approach2Sprite;
+            currentDialogue = currentDialogue.nextDialogue;
+            StartDialogue();
+        }
+
+        if (segueToCutTo == Segue.Approach3)
+        {
+            backgroundImage.sprite = approach3Sprite;
+            currentDialogue = currentDialogue.nextDialogue;
+            StartDialogue();
+        }
+
+        if (segueToCutTo == Segue.Approach4)
+        {
+            backgroundImage.sprite = isabelleArrivedSprite;
+            currentDialogue = currentDialogue.nextDialogue;
+            StartDialogue();
+        }
+
+        if (segueToCutTo == Segue.MechCentered)
+        {
+            backgroundImage.sprite = mechCenteredSprite;
             currentDialogue = currentDialogue.nextDialogue;
             StartDialogue();
         }
