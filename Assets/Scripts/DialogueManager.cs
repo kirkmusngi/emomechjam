@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -99,6 +100,11 @@ public class DialogueManager : MonoBehaviour
             decisionBlurb1.text = currentDialogue.branch.decisionBlurb1;
             decisionBlurb2.text = currentDialogue.branch.decisionBlurb2;
             branchingBox.SetActive(true);
+        }
+
+        if (currentDialogue.switchToNextSceneAfterThis)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         Debug.Log("End of dialogue!");

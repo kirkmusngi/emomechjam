@@ -25,3 +25,5 @@ MonoBehaviour:
     decisionBlurb2: 
     branch1: {fileID: 0}
     branch2: {fileID: 0}
+  switchToNextSceneAfterThis: 1
+  nextScene: 2
