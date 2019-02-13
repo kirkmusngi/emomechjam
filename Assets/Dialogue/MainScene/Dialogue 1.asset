@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: Dialogue3Child
+  m_Name: Dialogue 1
   m_EditorClassIdentifier: 
-  focus: 1
+  focus: 0
   currentActor: 
-  lines:
-  - '"What else can you do?"'
-  - "\"The next time your arms give out, \nsomeone might get seriously hurt.\""
-  - '"We got lucky this time..."'
+  lines: []
   nextDialogue: {fileID: 0}
   branchNext: 0
   branch:
@@ -25,5 +22,5 @@ MonoBehaviour:
     decisionBlurb2: 
     branch1: {fileID: 0}
     branch2: {fileID: 0}
-  switchToNextSceneAfterThis: 1
-  nextScene: 2
+  switchToNextSceneAfterThis: 0
+  nextScene: 0

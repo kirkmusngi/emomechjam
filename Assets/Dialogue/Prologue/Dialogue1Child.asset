@@ -15,11 +15,11 @@ MonoBehaviour:
   focus: 1
   currentActor: 
   lines:
-  - Dad...
-  - I'm proud of you.
-  - You've worked hard.
-  - You've worked long enough.
-  - You can stop now.
+  - '"Dad..."'
+  - '"I''m proud of you."'
+  - '"You''ve worked hard."'
+  - '"You''ve worked long enough."'
+  - '"You can stop now."'
   nextDialogue: {fileID: 11400000, guid: 4d809d77717454d5399bc007db075b5a, type: 2}
   branchNext: 0
   branch:
@@ -27,3 +27,5 @@ MonoBehaviour:
     decisionBlurb2: 
     branch1: {fileID: 0}
     branch2: {fileID: 0}
+  switchToNextSceneAfterThis: 0
+  nextScene: 0
