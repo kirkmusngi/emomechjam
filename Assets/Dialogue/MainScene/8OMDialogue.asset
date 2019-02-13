@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 8OMDialogue
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 1
   lines:
   - '"Wha--- does that mean?..."'
   importantSegue: 0

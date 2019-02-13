@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 5IFDialogue
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 3
   lines:
   - '"You must have been quite the pilot."'
+  importantSegue: 0
+  segueToCutTo: 0
   nextDialogue: {fileID: 11400000, guid: 8841f4e7915dbf44d8da210576aeab60, type: 2}
   branchNext: 0
   branch:

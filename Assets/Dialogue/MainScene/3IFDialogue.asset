@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 3IFDialogue
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 3
   lines:
   - '"Oh my, a T57-001. Not many of these survived the war."'
+  importantSegue: 0
+  segueToCutTo: 0
   nextDialogue: {fileID: 11400000, guid: 9a568e68a168d7047bd229548be5cf96, type: 2}
   branchNext: 0
   branch:

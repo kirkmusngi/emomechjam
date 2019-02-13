@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 6OMDialogue 1
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 2
   lines:
   - "\"No, no, just a lucky one. \r\n\r\nYou spend 45 years in one of these things,
     you learn just about every trick it can do. And I can tell ya, there's not a single
@@ -24,6 +24,8 @@ MonoBehaviour:
   - '"If you hear those hornets coming, the only thing you better do is put something
     between you and the damn sky, quick. And hope they don''t toss a bomb in there
     sideways."'
+  importantSegue: 0
+  segueToCutTo: 0
   nextDialogue: {fileID: 11400000, guid: 9587cb4ad8548ac42b527bec261d5bf8, type: 2}
   branchNext: 0
   branch:

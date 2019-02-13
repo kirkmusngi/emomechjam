@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: 4OMDialogue
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 2
   lines:
   - "\"Unfortunately. \r\n\r\nThis one managed to get me all the way through the thing
     though.\""
+  importantSegue: 0
+  segueToCutTo: 0
   nextDialogue: {fileID: 11400000, guid: 2d8b2b27caa58204ead328acb4d88912, type: 2}
   branchNext: 0
   branch:
