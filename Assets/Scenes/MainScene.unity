@@ -364,7 +364,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1938120252}
         m_MethodName: DecisionMade
         m_Mode: 2
         m_Arguments:
@@ -1041,8 +1041,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 140, y: -50}
-  m_SizeDelta: {x: 500, y: 30}
+  m_AnchoredPosition: {x: 140, y: -33}
+  m_SizeDelta: {x: 442.5, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1193160821
 MonoBehaviour:
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: This is where all their dialogue shows up...
 --- !u!222 &1193160822
@@ -1306,7 +1306,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1938120252}
         m_MethodName: DecisionMade
         m_Mode: 2
         m_Arguments:
@@ -1594,7 +1594,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Pilot box text...
 --- !u!222 &1897628810
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e8f361172583460caf5a2aa7f65e8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentDialogue: {fileID: 11400000, guid: a7adc778a2ddc4634bd8f413a25a05bd, type: 2}
+  currentDialogue: {fileID: 11400000, guid: 22061a09b2f3c854eb66106b1317aeca, type: 2}
   pilotBox: {fileID: 720514091}
   prologueBox: {fileID: 1205341719}
   dialogueBox: {fileID: 330709338}
@@ -1731,6 +1731,7 @@ MonoBehaviour:
   decisionBlurb1: {fileID: 812156099}
   decisionBlurb2: {fileID: 388898820}
   sfxSource: {fileID: 654500862}
+  mechPrologueImage: {fileID: 0}
 --- !u!1 &2080882193
 GameObject:
   m_ObjectHideFlags: 0
