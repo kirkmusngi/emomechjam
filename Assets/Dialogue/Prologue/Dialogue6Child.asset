@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: Dialogue3Child
+  m_Name: Dialogue6Child
   m_EditorClassIdentifier: 
   focus: 1
   currentActor: 
   lines:
-  - '"What else can you do?"'
-  - "\"The next time your arms give out, \nsomeone might get seriously hurt.\""
-  - '"We got lucky this time..."'
-  importantSegue: 1
+  - '"How did you even get to keep this thing once the war ended?"'
+  importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: ef1e298f2a71542429827973034e9b08, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 7f2bfb2ab900d420195f7edc023616d6, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

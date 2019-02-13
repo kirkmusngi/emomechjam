@@ -22,6 +22,8 @@ public class DialogueManager : MonoBehaviour
 
     public AudioSource sfxSource;
 
+    public GameObject mechPrologueImage;
+
     Queue<string> sentences;
     GameObject currentDialogueBox;
     Text currentText;
@@ -29,6 +31,7 @@ public class DialogueManager : MonoBehaviour
     Text pilotText;
     Text prologueText;
     Text dialogueText;
+
 
     void Awake()
     {
@@ -60,7 +63,7 @@ public class DialogueManager : MonoBehaviour
     {
         // Set dialogue box focus and actor...
         SetCurrentFocus();
-        Debug.Log("Starting conversation with " + currentDialogue.currentActor);
+        //Debug.Log("Starting conversation with " + currentDialogue.currentActor);
 
         sentences.Clear();
 
@@ -88,6 +91,12 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        if (currentDialogue.importantSegue)
+        {
+            PlaySegue(currentDialogue.segueToCutTo);
+            return;
+        }
+
         if (currentDialogue.nextDialogue != null)
         {
             currentDialogue = currentDialogue.nextDialogue;
@@ -127,7 +136,7 @@ public class DialogueManager : MonoBehaviour
                 currentDialogueBox = pilotBox;
                 currentText = pilotText;
                 break;
-            case CurrentDialogueBox.PrologueBox:
+            case CurrentDialogueBox.ChildBox:
                 currentDialogueBox = prologueBox;
                 currentText = prologueText;
                 break;
@@ -137,6 +146,18 @@ public class DialogueManager : MonoBehaviour
         }
 
         currentDialogueBox.SetActive(true);
+    }
+
+    void PlaySegue(Segue segueToCutTo)
+    {
+        if (segueToCutTo == Segue.PresentMechPrologue)
+        {
+            Debug.Log("Mech Segue!");
+            mechPrologueImage.SetActive(true);
+            currentDialogueBox.GetComponent<RectTransform>().Translate(130, 0, 0);
+            currentDialogue = currentDialogue.nextDialogue;
+            StartDialogue();
+        }
     }
 
     public void DecisionMade(Button button)

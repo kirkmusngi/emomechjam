@@ -12,20 +12,29 @@ public class Dialogue : ScriptableObject
     [TextArea(3, 10)]
     public string[] lines;
 
+    public bool importantSegue;
+    public Segue segueToCutTo;
     public Dialogue nextDialogue;
     public bool branchNext;
     public DialogueBranch branch;
 
     public bool switchToNextSceneAfterThis;
     public CurrentScene nextScene;
+
+
 }
 
 public enum CurrentDialogueBox
 {
-    PilotBox, PrologueBox, MainBox
+    PilotBox, ChildBox, MainBox
 }
 
 public enum CurrentScene
 {
     Menu, Prologue, Main
+}
+
+public enum Segue
+{
+    PresentMechPrologue
 }
