@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: 10JOMDialogue
+  m_Name: 13JIFDialogue 3
   m_EditorClassIdentifier: 
   focus: 2
   currentActor: 
   lines:
-  - '"I guess there''s no where to run if things take a turn for the worse up there."'
-  - '"I always had much more luck putting something between me and a bullet than trying
-    to dodge one."'
+  - '"Is it really better to live your life quivering in a hole somewhere, terrified
+    to go outside?"'
+  - '"War kills both cowards and heroes, I''d rather die buried in sunlight, falling
+    like a star."'
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: 4752e1bea07c5b949bf80765f69ef307, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 0b31fc3b9cf544d6d862bb22dc4625a5, type: 2}
   branchNext: 1
   branch:
     decisionBlurb1: There was nothing fair about that and you know it.
