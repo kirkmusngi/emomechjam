@@ -10,15 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: 20TOMDialogue 9
+  m_Name: 18-1TIFDialogue 8
   m_EditorClassIdentifier: 
   focus: 2
   currentActor: 3
   lines:
-  - '"But it does."'
+  - "\"We're all monsters, sweetheart.\r\n\r\nI'm sure when you came up on the enemy
+    flank you assailed them with a barrage of high fives and handshakes in the most
+    noble of fashions.\""
+  - "\"What did you think you were there to do? What did you think any of us were
+    there to do?\r\n\r\nWhat do you think duty means?\""
+  - "\"The butchery is the job.\r\n\r\nIndignation about it will only hold you back.\""
+  - '"The surest way to make a job miserable is to decide that you''re above it."'
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: e5cd44842c8c7d846a0c9d62f30de958, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 5b91b316c8658434686de04da91087c2, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

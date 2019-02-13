@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 10JOMDialogue
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 2
   lines:
   - '"I guess there''s no where to run if things take a turn for the worse up there."'
   - '"I always had much more luck putting something between me and a bullet than trying
@@ -21,7 +21,7 @@ MonoBehaviour:
   importantSegue: 0
   segueToCutTo: 0
   nextDialogue: {fileID: 11400000, guid: 4752e1bea07c5b949bf80765f69ef307, type: 2}
-  branchNext: 1
+  branchNext: 0
   branch:
     decisionBlurb1: There was nothing fair about that and you know it.
     decisionBlurb2: Just as fair as the price I'll give you for it.

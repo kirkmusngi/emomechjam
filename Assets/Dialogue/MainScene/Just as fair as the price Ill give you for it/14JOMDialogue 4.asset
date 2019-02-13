@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 14JOMDialogue 4
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 2
   lines:
   - '"Something bad can always happen but that doesn''t mean you don''t have a say
     in the odds."'

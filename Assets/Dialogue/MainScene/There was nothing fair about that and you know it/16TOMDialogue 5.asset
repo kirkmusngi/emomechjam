@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 16TOMDialogue 5
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 0
   lines:
   - '"The only thing you deserve is a forgotten grave."'
   - '"I''d rather see it as a smoldering heap than see it in your hands."'
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: 22061a09b2f3c854eb66106b1317aeca, type: 2}
+  nextDialogue: {fileID: 11400000, guid: a71e94124981fd2458c8923d35ec73d5, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

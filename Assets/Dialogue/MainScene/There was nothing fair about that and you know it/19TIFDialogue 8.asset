@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 19TIFDialogue 8
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 0
   lines:
   - '"We should all be above that work. That work shouldn''t exist."'
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: 22061a09b2f3c854eb66106b1317aeca, type: 2}
+  nextDialogue: {fileID: 11400000, guid: ee4a7b51ff6cfc14f96d1f9c86243426, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

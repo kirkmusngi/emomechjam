@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 12JOMDialogue 2
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 2
   lines:
   - '"It''s a wise yahoo that hides in a bundle of sticks."'
   - '"It might be nobler to die, but it''s also damn foolish."'
   importantSegue: 0
   segueToCutTo: 0
   nextDialogue: {fileID: 11400000, guid: 75a4d9d3080052e4bb87d30dc0653990, type: 2}
-  branchNext: 1
+  branchNext: 0
   branch:
     decisionBlurb1: There was nothing fair about that and you know it.
     decisionBlurb2: Just as fair as the price I'll give you for it.

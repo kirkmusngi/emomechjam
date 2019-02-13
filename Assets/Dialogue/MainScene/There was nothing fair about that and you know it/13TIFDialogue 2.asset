@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 13TIFDialogue 2
   m_EditorClassIdentifier: 
   focus: 2
-  currentActor: 
+  currentActor: 3
   lines:
   - '"Oh yes, curse me for not needlessly putting myself in harm''s way when engaging
     the enemy"'
