@@ -10,23 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: 13JIFDialogue 3
+  m_Name: 19TIFDialogue 8
   m_EditorClassIdentifier: 
   focus: 2
   currentActor: 
   lines:
-  - '"Is it really better to live your life quivering in a hole somewhere, terrified
-    to go outside?"'
-  - '"War kills both cowards and heroes, I''d rather die buried in sunlight, falling
-    like a star."'
+  - '"We should all be above that work. That work shouldn''t exist."'
   importantSegue: 0
   segueToCutTo: 0
-  nextDialogue: {fileID: 11400000, guid: 21007034424b6cb4486bfae9c8ad0ca1, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 22061a09b2f3c854eb66106b1317aeca, type: 2}
   branchNext: 0
   branch:
-    decisionBlurb1: It's easy to be brave when you're traveling faster than the speed
-      of sound
-    decisionBlurb2: Just as fair as the price I'll give you for it.
+    decisionBlurb1: 
+    decisionBlurb2: 
     branch1: {fileID: 0}
     branch2: {fileID: 0}
   switchToNextSceneAfterThis: 0
