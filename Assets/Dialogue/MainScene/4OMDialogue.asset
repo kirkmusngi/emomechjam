@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: Dialogue 1
+  m_Name: 4OMDialogue
   m_EditorClassIdentifier: 
-  focus: 0
+  focus: 2
   currentActor: 
-  lines: []
-  nextDialogue: {fileID: 0}
+  lines:
+  - "\"Unfortunately. \r\n\r\nThis one managed to get me all the way through the thing
+    though.\""
+  nextDialogue: {fileID: 11400000, guid: 2d8b2b27caa58204ead328acb4d88912, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

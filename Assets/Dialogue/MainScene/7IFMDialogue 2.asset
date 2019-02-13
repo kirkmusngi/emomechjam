@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
+  m_Name: 7IFMDialogue 2
+  m_EditorClassIdentifier: 
+  focus: 2
+  currentActor: 
+  lines:
+  - '"He he, oh yes, I suppose that is quite true."'
+  - '"I remember the little mice running for the woods quite clearly." '
+  - "\"It must have been so lovely to have a nice hard body like this to protect you.\r\n\r\nI
+    remember the poor footmen running into buildings thinking it would save them,
+    only to not realize I could just as easily collapse it on them with a well placed
+    bomb.\""
+  nextDialogue: {fileID: 11400000, guid: e6b755e324ef1654091735bb760a8bb8, type: 2}
+  branchNext: 0
+  branch:
+    decisionBlurb1: 
+    decisionBlurb2: 
+    branch1: {fileID: 0}
+    branch2: {fileID: 0}
+  switchToNextSceneAfterThis: 0
+  nextScene: 0

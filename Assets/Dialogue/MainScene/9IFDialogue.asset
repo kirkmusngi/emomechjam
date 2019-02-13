@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
+  m_Name: 9IFDialogue
+  m_EditorClassIdentifier: 
+  focus: 2
+  currentActor: 
+  lines:
+  - '"Captain Isabelle Faust of the Zargovia Air Force. Led a flight squadron myself
+    back in the war." '
+  - '"Oh how exhilarating it was to come across a little nest of walkers and infantry
+    going to and fro in a field as clear as the sky is today."'
+  - "\"I always thought that made things just a little more fair, don't you?\r\n\r\nAfter
+    all, I was always stuck up there wide out in the open, plain as day, with no where
+    to hide. It's not like there were flying barns to duck into or anything.\""
+  importantSegue: 0
+  segueToCutTo: 0
+  nextDialogue: {fileID: 0}
+  branchNext: 1
+  branch:
+    decisionBlurb1: There was nothing fair about that and you know it.
+    decisionBlurb2: Just as fair as the price I'll give you for it.
+    branch1: {fileID: 11400000, guid: 8063744802bd8744bb262d115cfc91cb, type: 2}
+    branch2: {fileID: 11400000, guid: fe04d1ee837699b46a0bf839c98b6156, type: 2}
+  switchToNextSceneAfterThis: 0
+  nextScene: 0

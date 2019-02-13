@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
+  m_Name: 11TIFDialogue
+  m_EditorClassIdentifier: 
+  focus: 2
+  currentActor: 
+  lines:
+  - '"It was a war, darling"'
+  - '"It''s not like you lot weren''t shooting back."'
+  importantSegue: 0
+  segueToCutTo: 0
+  nextDialogue: {fileID: 11400000, guid: 1cfd6c7eb525bce48b92f57e690870a0, type: 2}
+  branchNext: 0
+  branch:
+    decisionBlurb1: 
+    decisionBlurb2: 
+    branch1: {fileID: 0}
+    branch2: {fileID: 0}
+  switchToNextSceneAfterThis: 0
+  nextScene: 0

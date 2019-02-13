@@ -10,12 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
-  m_Name: Dialogue
+  m_Name: 1IFDialogue
   m_EditorClassIdentifier: 
-  focus: 0
+  focus: 2
   currentActor: 
-  lines: []
-  nextDialogue: {fileID: 0}
+  lines:
+  - As the door opened, a heavy fog of cigarette smoke escaped and mixed with the
+    smell of bleeding gasoline and fury. She emerged like an uncaged storm cloud,
+    grinning.
+  - '"Hello, good sir! My name is Isabelle Faust. I''m in the market for old war-era
+    hard forms and I heard you were looking to part with one?"'
+  nextDialogue: {fileID: 11400000, guid: 0b31fc3b9cf544d6d862bb22dc4625a5, type: 2}
   branchNext: 0
   branch:
     decisionBlurb1: 

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755336d7441c8461e87cafa594b02f62, type: 3}
+  m_Name: 6OMDialogue 1
+  m_EditorClassIdentifier: 
+  focus: 2
+  currentActor: 
+  lines:
+  - "\"No, no, just a lucky one. \r\n\r\nYou spend 45 years in one of these things,
+    you learn just about every trick it can do. And I can tell ya, there's not a single
+    maneuver that makes a difference when the hornets come flyin'. \""
+  - '"They try to feed you some bullshit about running serpentine back in training
+    but that didn''t do a damn thing except keep some of the rookies out in the open
+    a bit longer."'
+  - '"If you hear those hornets coming, the only thing you better do is put something
+    between you and the damn sky, quick. And hope they don''t toss a bomb in there
+    sideways."'
+  nextDialogue: {fileID: 11400000, guid: 9587cb4ad8548ac42b527bec261d5bf8, type: 2}
+  branchNext: 0
+  branch:
+    decisionBlurb1: 
+    decisionBlurb2: 
+    branch1: {fileID: 0}
+    branch2: {fileID: 0}
+  switchToNextSceneAfterThis: 0
+  nextScene: 0
