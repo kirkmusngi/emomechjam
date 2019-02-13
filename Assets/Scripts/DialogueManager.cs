@@ -176,7 +176,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator DisplaySentence(string sentence)
     {
-        actorName.text = currentDialogue.currentActor;
+        //actorName.text = currentDialogue.currentActor;
         currentText.text = "";
         int soundDelay = 0;
         foreach(char letter in sentence.ToCharArray())
